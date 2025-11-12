@@ -88,8 +88,8 @@ nav .cv:hover {
 @media (max-width : 880px) {
     header {
         backdrop-filter: blur(40px);
-        /* background-color: #EBEAEB; */
-        background: transparent;
+        background-color: #EBEAEB;
+        /* background: transparent; */
     }
     .navbar-nav a {
         font-size: 16px;
