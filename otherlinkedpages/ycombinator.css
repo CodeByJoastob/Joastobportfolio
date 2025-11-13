@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Avenir', sans-serif;
+}
+section {
+     height: 5%;
+}
+nav {
+    display: flex;
+    width: 82%;
+    margin: auto;
+    /* border: thin black solid;  */
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.Ylogo {
+    width: 6%;
+    cursor: pointer;
+}
+
+.leftside {
+    display: flex;
+    gap: 2em;
+   align-items: center;
+}
+.navbar {
+    display: flex;
+    gap: 1.4em;
+    align-items: center;
+}
+/* about list */
+.about {
+    position: relative;
+    /* margin-bottom: 16px; */
+}
+.about-list {
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: white;
+    padding: 8px 15px;
+    /* top: 22px; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0.5px grey;
+} 
+.about-list li:hover {
+     background-color: #E5E7EB;
+}
+.about-listli:hover a:hover {
+    color: black;
+}
+.about-list li {
+    padding: 8px 4px;
+}
+.about-list a {
+     margin-bottom: 4px;
+}
+.about:hover .about-list {
+    display: block;
+}
+
+/* Companies */
+
+.companies {
+    position: relative;
+    /* bottom: 20px; */
+}
+.companies-list {
+    display: none;
+    position: absolute;
+    width: 180px;
+    background-color: white;
+    border-radius: 8px;
+    /* top: 24px; */
+    border-radius: 8px;
+    padding: 5px 5px 10px 10px;
+    box-shadow: 0px 0px 5px 0.5px grey;
+}
+.companies-list li {
+    padding: 8px;
+}
+.companies-list li:hover {
+    background-color: #E5E7EB;
+}
+.companies:hover .companies-list {
+      display: block;
+}
+
+/* Startup Jobs */
+.startup {
+    position: relative;
+}
+.startup-list {
+    display: none;
+    position: absolute;
+    width: 210px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0.5px grey;
+    /* top: 25px; */
+    border-radius: 8px;
+}
+.startup:hover .startup-list{
+    display: block;
+}
+.startup-list li {
+    padding: 10px;
+}
+.startup-list li:hover {
+    background-color: #E5E7EB;
+}
+.startup-listli:hover a:hover {
+    color: black;
+}
+.startup-list li:hover a:hover {
+    color: black;
+}
+.jobs {
+    list-style-type:circle;
+}
+
+/* resources */
+
+.resources {
+    position: relative;
+}
+.resources-list {
+    position: absolute;
+    /* top: 25px; */
+    width: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0.5px grey;
+    border-radius: 8px;
+    display: none;
+}
+.resources-list li {
+    padding: 12px 15px;
+}
+.resources-list li:hover {
+    background-color: #E5E7EB;
+}
+.resources-list li:hover a:hover {
+    color: black;
+}
+.resources:hover .resources-list {
+    display: block;
+}
+
+.navbar li a {
+    font-size: 16px;
+    font-weight: 200;
+    color: #222222;;
+    text-decoration: none;  
+    /* position: relative;                                      */
+}
+
+.navbar li a:hover {
+      color: #4EB7E4;
+}
+
+.apply1 {
+     background-color:#FB651E ;
+     padding: 6px 14px;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+}
+.apply1:hover {
+      background-color: #EE5D19;
+}
+.apply1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.w2026 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.rightside {
+     display: flex;
+     gap: 1em;
+     align-items: center;
+}
+body {
+    background-color: #F5F5EE ;
+}
+.section1 {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    /* border: 2px solid black; */
+    height: 30em;
+    margin-bottom: 60px;
+}
+.herosecfirst {
+   /* border: 2px solid black; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 55%;
+}
+
+.combinator  {
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+.herosecimage {
+    float: right;
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    
+} 
+.mainpic {
+    width: 100%;
+}
+h2 {
+    color: #FB651E ;
+    font-size: 60px  ;
+    font-weight: 600;
+    font-family: 'Avenir', sans-serif;
+}
+.apply {
+    background-color: #FB651E;
+    padding: 10px 30px;   
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.apply:hover {
+    background-color: #FDA942;
+}
+.apply a {
+    color: white;
+    font-size: 20px ;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.make {
+    font-size:24px ;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 200;
+}
+/* SECTION 2 */
+.section-two {
+    background-color: #F5F5EE;
+    margin-bottom: 50px;
+}
+.section-two h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.row {
+    width: 76%;
+    margin: auto;
+    /* height: 15vh; */
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.row div {
+    width: 9%;
+    background-color: white;
+    text-align: center;
+    /* padding: 20px 0px ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.row div img {
+    width: 120px;
+    padding: 15px 20px;
+}
+
+/* SECTION THREE */
+
+.section-three {
+    padding: 60px 0px;
+    background-color: white;
+} 
+.p1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.section-three span {
+    color: #FB651E;
+}
+.sect2-list {
+    display: flex;
+    width: 80%;
+    gap: 4.6em;
+    margin: auto;
+    justify-content: center;
+}
+.we-list {
+    display: flex;
+    gap: 1em;
+}
+.we-list p {
+    font-size: 18px;
+}
+.demacation {
+    height: 100%;
+    width: 4px;
+    background-color: #FB651E;
+}
